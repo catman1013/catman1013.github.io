@@ -1,0 +1,75 @@
+body {
+  background-image: url("images/africa.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100px;
+}
+
+.title {
+  position: relative;
+  font-size:100px;
+  color:#4b4b4b;
+  font-family:Herculanum;
+  height:auto;
+  margin-left: 50px;
+  top:0px;
+}
+.title h1{
+  position: absolute;
+  top:0px;
+  margin: 0;
+}
+
+.profile{
+  position: relative;
+  font-size:30px;
+  color:#FFF;
+  font-family:Herculanum;
+  height:auto;
+  margin:auto;
+  top:500px;
+  margin-left: 50px;
+  font-weight:200;
+}
+
+
+.top-wrapper {
+  position: absolute;
+  top:100px;
+  left:45%;
+}
+
+.grid {
+  display:grid;
+  gap:40px 10px;
+  grid-template-columns:repeat(3,240px);
+}
+
+.content {
+  display:inline-block;
+  color:white;
+  font-size:14px;
+  height:255px;
+  width:240px;
+  background-color:#4b4b4b;
+  border-radius: 5px;
+
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+}
+
+.content h1 {
+  margin-left: 20px;
+}
+
+.content ul{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.content li{
+  list-style:none;
+}
